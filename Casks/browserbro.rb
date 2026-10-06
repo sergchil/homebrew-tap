@@ -1,6 +1,6 @@
 cask "browserbro" do
-  version "1.0.0"
-  sha256 "fc07ac7204012e06d6c0ff835792933763094dbf5f51186f9ea6c80f841f952f"
+  version "1.1.0"
+  sha256 "7c8bab7a54fd71d9740dc4282f06e3226d2937a4eb29b313d8ae45b3cdaaf687"
 
   url "https://github.com/sergchil/browserbro/releases/download/v#{version}/BrowserBro.zip"
   name "BrowserBro"
@@ -12,8 +12,7 @@ cask "browserbro" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: ">= :sonoma"
 
   app "BrowserBro.app"
 
