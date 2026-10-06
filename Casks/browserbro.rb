@@ -1,6 +1,6 @@
 cask "browserbro" do
-  version "1.1.0"
-  sha256 "7c8bab7a54fd71d9740dc4282f06e3226d2937a4eb29b313d8ae45b3cdaaf687"
+  version "1.2.0"
+  sha256 "01bf5727c9102d369229c47bcab4eff423705f54d50db261bb7b7528536dafc8"
 
   url "https://github.com/sergchil/browserbro/releases/download/v#{version}/BrowserBro.zip"
   name "BrowserBro"
